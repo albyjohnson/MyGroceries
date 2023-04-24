@@ -22,7 +22,6 @@ body{
     margin: auto;
     background-color:beige;
     box-shadow: 20px 20px 34px 0 rgba(0, 0,0, 0.5);
-
 }
 .groceryList h1{
     font-size: 2.5rem;
@@ -53,6 +52,15 @@ font-size: 2rem;
 }
 .style{
    text-align: center; 
+}
+p.hints{
+    color: darkgreen;
+    margin-top: 700px;
+    text-align: center;
+}
+p.hint{
+    color: darkgreen;
+    text-align: center;
 }
 @media(max-width=480px){
     .groceryList h1{
