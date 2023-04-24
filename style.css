@@ -1,0 +1,68 @@
+* {
+padding: 0px;
+margin: 0;
+}
+
+body{
+    font-family:cursive;
+   background-color: mediumslateblue;
+   background-image: url(https://img.freepik.com/free-photo/supermarket-banner-concept-with-ingredients_23-2149421148.jpg?w=1380&t=st=1682347708~exp=1682348308~hmac=e5349545c9fcc288f17adf490eba99e2db2a98b0d500d3d0c7f818e2b4811b62);
+
+}
+.container{
+    border: 0 solid black;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+.groceryList{
+    
+    width: 600px;
+    min-height: 100vh;
+    margin: auto;
+    background-color:beige;
+    box-shadow: 20px 20px 34px 0 rgba(0, 0,0, 0.5);
+
+}
+.groceryList h1{
+    font-size: 2.5rem;
+    margin-top: 1em;
+    text-align: center;
+}
+.groceryList h3{
+    text-align: center;
+    color: dimgrey;
+}
+.groceryList i{
+    font-size: 2rem;
+    color:darkviolet;
+}
+
+.groceryList input{
+    font-family: inherit;
+    outline: 0;
+    border: 0;
+    border-bottom: 3px solid black;
+    width: 70%;
+    font-size: 1.5rem;
+}
+#allItems h2{
+margin-left: 50px;
+font-size: 2rem;
+
+}
+.style{
+   text-align: center; 
+}
+@media(max-width=480px){
+    .groceryList h1{
+        font-size: 2rem;
+    }
+    .groceryList i{
+        font-size: 1.5rem;
+    }
+    #allItems h2{
+        font-size: 2rem;
+        margin-left: 25px;
+    }
+}
