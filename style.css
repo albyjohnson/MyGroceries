@@ -53,15 +53,7 @@ font-size: 2rem;
 .style{
    text-align: center; 
 }
-p.hints{
-    color: darkgreen;
-    margin-top: 700px;
-    text-align: center;
-}
-p.hint{
-    color: darkgreen;
-    text-align: center;
-}
+
 @media(max-width=480px){
     .groceryList h1{
         font-size: 2rem;
